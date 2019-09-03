@@ -37,7 +37,9 @@ $(document).ready(function(){
     $("#answer").hide();
     $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballQuestion.png");
     var question = prompt("What do you want to know?");
-    magic8Ball.getAnswer(question);
+    if (question) {
+      magic8Ball.getAnswer(question);
+    }
   };
   
   $("#questionButton").click( onClick );
