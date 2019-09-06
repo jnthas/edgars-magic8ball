@@ -11,9 +11,10 @@ $(document).ready(function(){
       "Sai daqui ow", 
       "Tem que ver se a tia vai querer, neh?", 
       "#sóvai", 
-      "Genial", 
+      "G-E-N-I-A-L", 
       "tah bala issai", 
-      "whatever makes you happy"
+      "whatever makes you happy",
+      "O pessoal tá pedindo uma paciência que eu não tenho"
     ];
  
   magic8Ball.getAnswer = function(question)
